@@ -1,0 +1,10 @@
+social :
+  kakao :
+    client-id : 6555d0ecdf28852a4a4e0f33c4ac88c6
+    secret-key : BBAxYvy78Qn9wyckjk4LlrosdLKyR6aS
+    auth-uri : https://kauth.kakao.com/oauth/authorize
+    redirect-uri : http://localhost:8080/oauth2/kakao/redirect-uri
+    response-type : code
+
+    ##token
+    grant-type : authorization_code
